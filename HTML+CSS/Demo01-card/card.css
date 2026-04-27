@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 卡片容器 */
+.card{
+    width: 300px;
+    height: 180px;
+    background: #7e7e7e;
+    border-radius: 8px;
+    margin: 50px;
+
+    /* 关键点1 */
+    position: relative;
+}
+
+/* 角标 */
+.tag{
+    width: 50px;
+    height: 26px;
+    background: rgb(163, 163, 255);
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 0 6px 0 4px;
+
+    /* 关键点2 */
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
